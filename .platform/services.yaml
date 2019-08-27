@@ -1,0 +1,4 @@
+postgresql:
+    type: postgresql:11
+    disk: 256
+    size: S
