@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 postgresql:
     type: postgresql:11
     disk: 256
     size: S
+=======
+# The services of the project.
+#
+# Each service listed will be deployed
+# to power your Platform.sh project.
+
+postgresqldb:
+    type: postgresql:11
+    disk: 1024
+>>>>>>> 9630f5b182165ba959066e2f4eff4c176842cb17

@@ -1,4 +1,5 @@
 # Load the Rails application.
+<<<<<<< HEAD
 require File.expand_path('../application', __FILE__)
 
 # Initialize the Rails application.
@@ -13,3 +14,9 @@ ActionMailer::Base.smtp_settings = {
     :domain => 'heroku.com',
     :enable_starttls_auto => true
 }
+=======
+require_relative 'application'
+
+# Initialize the Rails application.
+Rails.application.initialize!
+>>>>>>> 9630f5b182165ba959066e2f4eff4c176842cb17

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
 
   resources :members
   get 'home/index'
@@ -19,4 +20,7 @@ Rails.application.routes.draw do
   }
 
 
+=======
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+>>>>>>> 9630f5b182165ba959066e2f4eff4c176842cb17
 end

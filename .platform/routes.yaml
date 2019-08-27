@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "https://{default}/":
     type: upstream
     upstream: "app:http"
@@ -5,3 +6,13 @@
 "https://www.{default}/":
     type: redirect
     to: "https://{default}/"
+=======
+# The routes of the project.
+#
+# Each route describes how an incoming URL is going
+# to be processed by Platform.sh.
+
+"https://{default}":
+  type: upstream
+  upstream: "app:http"
+>>>>>>> 9630f5b182165ba959066e2f4eff4c176842cb17
